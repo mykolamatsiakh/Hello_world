@@ -1,6 +1,7 @@
 import devcat.Cat;
 import devcat.Parachuter;
 import devcat.Pilot;
+import impl.DriverBus;
 import people.People;
 
 public class Main {
@@ -11,7 +12,7 @@ public class Main {
 
 
       public static void main(String[] args) {
-          cat = new Cat(12, "Бульдог", "Бровко");
+        /*  cat = new Cat(12, "Бульдог", "Бровко");
           people = new People(17, "Mykola", "Matsyakh", cat);
            people.getCat().setName("Брівко");
 
@@ -20,6 +21,11 @@ public class Main {
           Parachuter parachuter = new Parachuter(17, "Mykola", "Matsyakh",null);
           parachuter.setTypeOfParachute("Wingsuit");
           parachuter.sayGoodbye();
+          */
+          DriverBus andrew = new DriverBus();
+          andrew.setCategory("D");
+          System.out.println(andrew.getSpeed());
+          andrew.go();
 
         }
     }
