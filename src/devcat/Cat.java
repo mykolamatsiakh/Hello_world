@@ -1,6 +1,6 @@
 package devcat;
 
-public class Cat {
+public class Cat extends Pilot {
     private int age;
     private String poroda;
     private String name;
@@ -43,5 +43,13 @@ public class Cat {
     @Override
     public String toString() {
         return ("devcat.Cat: "+name+"(Poroda:"+poroda+", Age"+age+")");
+    }
+
+    void fly() {
+        System.out.println("If i could fly");
+    }
+
+    void dream() {
+        System.out.println("I would be a king of the sky");
     }
 }

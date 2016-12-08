@@ -1,5 +1,6 @@
 import devcat.Cat;
 import devcat.Parachuter;
+import devcat.Pilot;
 import people.People;
 
 public class Main {
@@ -19,6 +20,7 @@ public class Main {
           Parachuter parachuter = new Parachuter(17, "Mykola", "Matsyakh",null);
           parachuter.setTypeOfParachute("Wingsuit");
           parachuter.sayGoodbye();
+
         }
     }
 
