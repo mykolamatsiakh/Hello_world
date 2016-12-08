@@ -1,4 +1,5 @@
 import devcat.Cat;
+import devcat.Parachuter;
 import people.People;
 
 public class Main {
@@ -16,6 +17,10 @@ public class Main {
           System.out.println(people);
           cat.say();
           people.getCat().say();
+
+
+          Parachuter parachuter = new Parachuter(17, "Mykola", "Matsyakh",null);
+          parachuter.setTypeOfParachute("Wingsuit");
         }
     }
 
