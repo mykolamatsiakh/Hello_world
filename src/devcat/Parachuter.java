@@ -17,4 +17,9 @@ public class Parachuter extends People {
     public void setTypeOfParachute(String typeOfParachute) {
         this.typeOfParachute = typeOfParachute;
     }
+
+    @Override
+    public void sayGoodbye() {
+        System.out.println("Goodbye");
+    }
 }

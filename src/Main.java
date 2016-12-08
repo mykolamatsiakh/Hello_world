@@ -12,15 +12,13 @@ public class Main {
       public static void main(String[] args) {
           cat = new Cat(12, "Бульдог", "Бровко");
           people = new People(17, "Mykola", "Matsyakh", cat);
-         people.getCat().setName("Брівко");
+           people.getCat().setName("Брівко");
 
-          System.out.println(people);
-          cat.say();
-          people.getCat().say();
-
+          people.sayGoodbye();
 
           Parachuter parachuter = new Parachuter(17, "Mykola", "Matsyakh",null);
           parachuter.setTypeOfParachute("Wingsuit");
+          parachuter.sayGoodbye();
         }
     }
 

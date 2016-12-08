@@ -47,6 +47,9 @@ public class People {
     public void setCat(Cat cat) {
         this.cat = cat;
     }
+    public void sayGoodbye(){
+        System.out.println("I'm flying");
+    }
 
     @Override
     public String toString() {
