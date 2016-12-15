@@ -1,20 +1,21 @@
 
 public class Main {
 
-public static void main(String... args){
+public static void main(String... args) {
 
-    System.out.println(ExamStatic.get());
-    ExamStatic.b=10;
-    System.out.println(ExamStatic.b);
-    ExamStatic.get();
-    System.out.println(ExamStatic.b);
-    ExamStatic.get();
-    System.out.println(ExamStatic.b);
-    ExamStatic.get();
-    System.out.println(ExamStatic.b);
+    ExamStatic exam = new ExamStatic();
+
+    String str1 = exam.get();
+    String str3 = exam.get("You are cool programmer");
+
+
+    System.out.println(str1);
+    System.out.println(str3);
+    exam.get(8);
+
+
 
 }
-
 
 }
 
